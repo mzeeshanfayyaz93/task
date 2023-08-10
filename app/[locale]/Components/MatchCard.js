@@ -4,14 +4,14 @@ import { Add } from "iconsax-react";
 
 const MatchCard = () => {
   return (
-    <div className="flex justify-between items-center gap-2 bg-slate-200 rounded-3xl p-5 mb-5">
-      <div className="title-setting flex justify-start item-center gap-2">
+    <div className="md:flex justify-between items-center gap-2 bg-slate-200 rounded-3xl p-5 mb-5">
+      <div className="title-setting flex justify-start item-center gap-2  mb-2">
         <FootBall />
         <h3 className="text-sm font-light text-black truncate line-clamp-2">
           Argentina Liga Professional{" "}
         </h3>
       </div>
-      <div className="flex justify-between items-center">
+      <div className="flex justify-between items-center mb-2">
         <h2 className="text-sm pr-12">Barracas Central</h2>
         <p>VS</p>
         <h2 className="text-sm pl-12">Barracas Central</h2>

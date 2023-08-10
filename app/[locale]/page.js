@@ -13,7 +13,7 @@ export default function Home() {
 
   return (
     <>
-      <div className="py-1 bg-[#F0C419]">
+      <div className="p-1 bg-[#F0C419]">
         <div className="max-w-6xl m-auto flex items-center justify-end gap-5">
           <details className="dropdown ">
             <summary className="bg-[#F0C419] cursor-pointer border-0">Eng</summary>
@@ -49,7 +49,7 @@ export default function Home() {
         </div>
       </div>
 
-      <main className="max-w-6xl m-auto">
+      <main className="max-w-6xl m-auto px-2">
       <Banner />
       <SelectBoxCard />
 
@@ -62,7 +62,7 @@ export default function Home() {
           View All
         </button>
       </div>
-      <div className="grid lg:grid-cols-5 md:grid-cols-3 sm:grid-cols-3 gap-4">
+      <div className="grid grid-cols-2 lg:grid-cols-5 md:grid-cols-3 sm:grid-cols-3 gap-4">
         {Array(5)
           .fill(0)
           .map((_, idx) => (
